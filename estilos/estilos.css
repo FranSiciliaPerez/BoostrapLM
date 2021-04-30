@@ -1,0 +1,103 @@
+/*Barra navegacion*/
+.navbar .logo{
+  width: auto;
+  height: 50px;
+}
+.navbar {
+    color: #ffffff;
+}
+/*Body*/
+#body {
+    background-color:gray;
+}
+/*Hero section*/
+#hero {
+    position: relative;
+    background-image: url('../imagenes/icono.PNG');
+    background-size:cover;
+    background-position: right;
+    height: 90vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#hero h1 {
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    color: white;
+    font-family: rotulo;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px navy;
+}
+/*Conócenos*/
+#conocenos{
+    margin: 10% 20% 10% 20%;
+    text-align: center;
+}
+
+#conocenos h5 {
+    color: #000;
+}
+
+#conocenos p {
+    color: rgb(237, 249, 250);
+    margin: 10% 20% 10% 20%;
+}
+
+a[class|=carousel-control] {
+    border: solid #0000 3px;
+
+    transition: background 0.7s,
+                border 0.7s
+    ;
+  }
+
+  a[class|=carousel-control]:hover {
+    background: #0007;
+  }
+
+  a.carousel-control-prev:hover {
+    border-right: solid 3px #fff;
+  }
+
+  a.carousel-control-next:hover {
+    border-left: solid 3px #fff;
+  }
+
+  ol.carousel-indicators {
+    margin: auto;
+    margin-bottom: 2rem;
+    background: #000c;
+    box-shadow: inset #fff 0 0 5px 0;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+  }
+
+  .carousel-item img.d-block {
+    aspect-ratio: 16/9;
+  }
+
+/*footer*/
+.titulo-seccion {
+    text-align: center;
+    color: lightcoral;
+}
+.footer {
+    padding: 2%;
+    font-size: 1.2rem;
+    background: #000000;
+}
+
+.footer .item {
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer p {
+    color: #ffffff;
+}
