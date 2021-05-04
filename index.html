@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -8,9 +7,13 @@
     <link href="estilos/estilos.css" rel="stylesheet">
 
     <title>Reuniones Amistad</title>
-</head>
-<body id="body">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<style type="text/css"></style></head>
+<body id="body" cz-shortcut-listen="true">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="
+    position: sticky;
+    top: 0;
+    z-index: 9;
+">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,18 +31,25 @@
               <a class="nav-link" href="#tarifas">Tarifas<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#conocenos" >Conócenos<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#conocenos">Conócenos<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#experiencias" >Experiencias<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#experiencias">Experiencias<span class="sr-only">(current)</span></a>
               </li>
           </ul>
         </div>
-      </nav>
+      </nav><div class="main cc_cursor" style="
+    padding: 3rem;
+">    
+    
       <section id="hero">
-        <h1>Reuniones Amistad</h1>  
+        <h1 style="
+    background: #3339;
+    border-radius: 10px;
+    padding: 1rem;
+">Reuniones Amistad</h1>  
       </section>
-      <section  id="quehacemos">
+      <section id="quehacemos">
           <h2>Todos sabemos que tener un amigo es tener un tesoro y ahora tu tambien puedes encontrar el tuyo.
               Apuntate a nuestros cursos donde seras capaz de encontrar a mas personas como tu.
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consectetur tenetur aliquam eveniet assumenda fuga, quia expedita accusamus sed deleniti! Fugit laborum quia sed autem laboriosam ullam vero iste cumque.
@@ -91,12 +101,12 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+            
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item carousel-item-next carousel-item-left">
               <img src="imagenes/beio1.jpeg" class="d-block w-100" alt="">
               <div class="carousel-caption d-none d-md-block">
                 <p>Conecta con los demas y la naturaleza</p>
@@ -108,7 +118,7 @@
                 <p>Haz amigos en el bosque</p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item active carousel-item-left">
               <img src="imagenes/beio3.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <p>Hacemos amigos donde sea y con quien sea</p>
@@ -127,7 +137,7 @@
       </section>
       <section id="experiencias">
           <div style="text-align: center;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nh151cCPT1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nh151cCPT1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
      </div>
      <div style="text-align: right;">
      </div>
@@ -136,10 +146,10 @@
       <footer class="footer">
         <div class="item">Para entrar en contacto con norotros pudes escribir un correo a: anonimo@gmail.com <br>
             O bien puedes seguirnos en nuestras redes sociales:</div>
-        <div class="item">Instagram <a href=”https://www.instagram.com/” target=”_blank”>anonimo@gmail.com</a> </div>
-        <div class="item">YouTube <a href=”https://www.youtube.com/” target=”_blank”>anonimo@gmail.com</a> </div>
+        <div class="item">Instagram <a href="”https://www.instagram.com/”" target="”_blank”">anonimo@gmail.com</a> </div>
+        <div class="item">YouTube <a href="”https://www.youtube.com/”" target="”_blank”">anonimo@gmail.com</a> </div>
 
-        <div class="item">Si quieres formar parte de esta gran familia, por favor registrate aqui abajo <br></p></p></div>
+        <div class="item">Si quieres formar parte de esta gran familia, por favor registrate aqui abajo <br><p></p><p></p></div>
         <form class="formulario">
           <div class="form-group">
             <label for="exampleInputEmail1">
@@ -175,4 +185,5 @@
     <script>$(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })</script>
-</body>
+
+</div></body></html>
